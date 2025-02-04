@@ -47,6 +47,11 @@ header nav ul li a {
     font-size: 14px;
 }
 
+nav ul li a.active {
+    color: #fa631c;
+    text-decoration: underline;
+}
+
 header nav ul li a:hover {
     color: #fa631c; /* Change the color to orange on hover */
 }
