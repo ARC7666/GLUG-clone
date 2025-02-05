@@ -20,12 +20,11 @@ header {
     padding: 10px;
     font-family: Avenir, Helvetica, Arial, sans-serif;
     font-size: 13px;
-    position: fixed;  
-    top: 0;           
-    left: 0;      
-    width: 100%;     
-    z-index: 1000;   
-
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 header nav ul {
@@ -47,23 +46,22 @@ header nav ul li a {
     font-size: 14px;
 }
 
-
 nav ul li a.active {
     color: #fa631c;
     text-decoration: underline;
 }
 
 header nav ul li a:hover {
-    color: #fa631c; /* Change the color to orange on hover */
+    color: #fa631c;
 }
 
 main {
-    margin-top: 100px; /* Push content below fixed header */
+    margin-top: 100px;
 }
 
 .team-intro {
     margin: 50px 0;
-    text-align: center; /* Centers the text */
+    text-align: center;
 }
 
 .team-intro h2 {
@@ -83,26 +81,27 @@ main {
 .team-container {
     margin: 0px auto;
     width: 1100px;
-    border: 1px solid black; /* Black border for the entire container */
+    border: 1px solid black;
     padding: 17.5px;
-    position: relative; /* Ensures proper alignment */
+    position: relative;
 }
 
 .blue-header {
     background-color: #051429;
     color: rgba(255, 255, 255, 0.359);
-    text-align: left;  /* Aligns text to the left */
+    text-align: left;
     padding: 7px 7px 7px 16px;
     font-size: 17px;
-    margin: -17.5px; /* Moves it up to align with container edges */
-    width: calc(100% + 35px); /* Matches container width including padding */
-    box-sizing: border-box; /* Ensures width includes padding */
+    margin: -17.5px;
+    width: calc(100% + 35px);
+    box-sizing: border-box;
     margin-bottom: 10px;
 }
+
 .team-members {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; /* Distributes items across rows */
+    justify-content: space-between;
     gap: 20px;
     padding: 30px;
     margin-bottom: 20px;
@@ -110,7 +109,7 @@ main {
 
 .member {
     text-align: center;
-    width: calc(14% - 10px); /* Adjusts the width to fit around 7 members per row */
+    width: calc(14% - 10px);
 }
 
 .member img {
@@ -120,7 +119,7 @@ main {
 }
 
 .member:hover img {
-    transform: scale(1.05); 
+    transform: scale(1.05);
 }
 
 .name {
@@ -136,24 +135,21 @@ main {
     color: #fa631c;
 }
 
-
-/* Section before footer */
 #before-footer {
     text-align: center;
     margin-top: 50px;
 }
 
-/* Screenshot container */
 .screenshot-container {
     margin-bottom: 0px;
 }
 
-/* Image styling for screenshot */
 .screenshot-image {
-    width: 50%;  /* Adjust width as per your requirement */
-    max-width: 300px;  /* Set max-width to control image size */
-    height: auto;  /* Height adjusts automatically to maintain aspect ratio */
+    width: 50%;
+    max-width: 300px;
+    height: auto;
 }
+
 footer {
     background-color: #ffffff;
     color: #000000;

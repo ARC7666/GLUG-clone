@@ -21,11 +21,11 @@ header {
     padding: 10px;
     font-family: Avenir, Helvetica, Arial, sans-serif;
     font-size: 13px;
-    position: fixed;  /* This makes the header fixed at the top */
-    top: 0;           /* Positions it at the top of the page */
-    left: 0;          /* Ensure it's aligned to the left */
-    width: 100%;      /* Ensures it spans the full width */
-    z-index: 1000;    /* Keeps it above other elements */
+    position: fixed;  
+    top: 0;           
+    left: 0;        
+    width: 100%;    
+    z-index: 1000;    
 }
 
 header nav ul {
@@ -53,7 +53,7 @@ nav ul li a.active {
 }
 
 header nav ul li a:hover {
-    color: #fa631c; /* Change the color to orange on hover */
+    color: #fa631c; 
 }
 .join-us {
     max-width: 80%;
@@ -71,7 +71,7 @@ h1 {
 }
 
 .separator {
-    width: calc(100% - 40px); /* Full width minus 20px padding on both sides */
+    width: calc(100% - 40px); 
     height: 5px;
     background-color: #fa631c;
     margin: 10px auto;
@@ -97,8 +97,8 @@ h1 {
 
 ul {
     list-style-type: disc;
-    padding-left: 40px; /* Keeps bullet points aligned with text */
-    margin: 0 20px; /* 20px gap from left and right */
+    padding-left: 40px; 
+    margin: 0 20px; 
     text-align: left;
     font-weight: bold;
 }
@@ -114,7 +114,7 @@ li {
     margin-top: 50px; 
 }
 
-/* Button styling */
+
 .register-btn {
     background-color: #fa631c; 
     color: white; 
@@ -135,22 +135,22 @@ li {
 
 
 
-/* Section before footer */
+
 #before-footer {
     text-align: center;
     margin-top: 50px;
 }
 
-/* Screenshot container */
+
 .screenshot-container {
     margin-bottom: 0px;
 }
 
-/* Image styling for screenshot */
+
 .screenshot-image {
-    width: 50%;  /* Adjust width as per your requirement */
-    max-width: 300px;  /* Set max-width to control image size */
-    height: auto;  /* Height adjusts automatically to maintain aspect ratio */
+    width: 50%; 
+    max-width: 300px;
+    height: auto; 
 }
 footer {
     margin-top: 0px;

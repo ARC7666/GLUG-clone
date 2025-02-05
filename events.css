@@ -20,11 +20,11 @@ header {
     padding: 10px;
     font-family: Avenir, Helvetica, Arial, sans-serif;
     font-size: 13px;
-    position: fixed;  /* This makes the header fixed at the top */
-    top: 0;           /* Positions it at the top of the page */
-    left: 0;          /* Ensure it's aligned to the left */
-    width: 100%;      /* Ensures it spans the full width */
-    z-index: 1000;    /* Keeps it above other elements */
+    position: fixed;  
+    top: 0;       
+    left: 0;          
+    width: 100%;   
+    z-index: 1000;    
     margin-bottom: 40px;
 }
 
@@ -52,29 +52,29 @@ nav ul li a.active {
 }
 
 header nav ul li a:hover {
-    color: #fa631c; /* Change the color to orange on hover */
+    color: #fa631c; 
 }
 
 #stats {
-    background-color: #44444450;  /* Light grey background */
+    background-color: #44444450; 
     padding: 40px 20px;
     text-align: center;
-    width: 60%;  /* Set the width to 80% */
-    height: 295px;  /* Set the height to a specific value, you can change this value as needed */
+    width: 60%;  
+    height: 295px;  
     margin: 0 auto;  
 }
 
 .stats-container {
     display: flex;
-    align-items: center; /* Aligns items vertically in the center */
-    justify-content: space-between; /* Ensures proper spacing */
-    gap: 20px; /* Adds space between image and text */
+    align-items: center; 
+    justify-content: space-between; 
+    gap: 20px; 
 }
 
 .stats-image img {
-    width: 400%;  /* Make the image responsive inside its container */
-    max-width: 200px;  /* Adjust this as needed */
-    height: 300px;  /* Maintain aspect ratio */
+    width: 400%;  
+    max-width: 200px;  
+    height: 300px;
     display: block; 
     margin-left: 50px;
     margin: 50px;
@@ -99,17 +99,17 @@ header nav ul li a:hover {
     text-align: center;
 }
 
-/* Heading for the section */
+
 .section-heading {
     font-size: 2rem;
     color: #333;
     margin-bottom: 30px;
 }
 
-/* Grid layout for event boxes (3 per row, 7 rows) */
+
 .events-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Always 3 boxes per row */
+    grid-template-columns: repeat(3, 1fr); 
     gap: 25px;  
     justify-items: center;
     margin-top: 15px;
@@ -123,24 +123,24 @@ header nav ul li a:hover {
     border: 1px solid #ddd;
     border-radius: 2px;
     padding: 25px;
-    width: 90%;  /* Make width dynamic */
-    max-width: 400px; /* Prevents it from becoming too wide */
+    width: 90%;  
+    max-width: 400px; 
     height: 440px;  
     text-align: left;
     box-sizing: border-box;
-    margin-left: 20px; /* Added margin left */
+    margin-left: 20px; 
     box-shadow: 0px 05px 05px rgba(0, 0, 0, 0.5);
 }
 
-/* Image styling within event box */
+
 .event-box img {
-    width: 100%; /* Keep full width */
-    height: 200px; /* Reduce height */
-    object-fit: contain; /* Ensures the whole image is visible without cropping */
+    width: 100%; 
+    height: 200px; 
+    object-fit: contain; 
     margin-bottom: 0px;
 }
 
-/* Heading inside each event box */
+
 .event-box h3 {
     font-size: 25px;
     color: #333;
@@ -148,29 +148,29 @@ header nav ul li a:hover {
     font-weight: lighter;
 }
 
-/* Description inside each event box */
+
 .event-box p {
     font-size: 13px;
     color: #666;
-    margin-bottom: 0px; /* Add space below the paragraph */
+    margin-bottom: 0px;
 }
 
-/* "Read More" button styling */
+
 .read-more-btn {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fa621c00; /* Button color */
+    background-color: #fa621c00; 
     color: orange;
     padding: 10px 15px;
     font-size: 13px;
     text-decoration: none;
     border-radius: 1px;
-    margin-top: 2px; /* Space between paragraph and button */
+    margin-top: 2px; 
 }
 
 .read-more-btn:hover {
-    background-color: rgba(255, 166, 0, 0.114); /* Darker shade on hover */
+    background-color: rgba(255, 166, 0, 0.114); 
 }
 
 #before-footer {
