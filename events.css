@@ -178,16 +178,16 @@ header nav ul li a:hover {
     margin-top: 50px;
 }
 
-/* Screenshot container */
+
 .screenshot-container {
     margin-bottom: 0px;
 }
 
-/* Image styling for screenshot */
+
 .screenshot-image {
-    width: 50%;  /* Adjust width as per your requirement */
-    max-width: 300px;  /* Set max-width to control image size */
-    height: auto;  /* Height adjusts automatically to maintain aspect ratio */
+    width: 50%;  
+    max-width: 300px;  
+    height: auto;  
 }
 footer {
     background-color: #ffffff;
