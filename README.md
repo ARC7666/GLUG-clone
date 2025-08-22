@@ -9,10 +9,10 @@ A simple responsive clone of my college’s **GLUG (GNU/Linux Users Group)** web
 
 ## Setup
      ```bash
-     git clone https://github.com/ARC7666/GLUG-clone.git
-     cd GLUG-clone
+  1.  git clone https://github.com/ARC7666/GLUG-clone.git
+      cd GLUG-clone
 
-      Open index.html directly in your browser, or run:
+  2.  Open index.html directly in your browser, or run:
       python3 -m http.server 8000
       then visit http://localhost:8000
 
