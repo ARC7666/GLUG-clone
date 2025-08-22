@@ -20,6 +20,6 @@ A simple responsive clone of my college’s **GLUG (GNU/Linux Users Group)** web
 -**HTML5**
 - **CSS**
 
-##Author
+## Author
 Ankit Ranjan
 
